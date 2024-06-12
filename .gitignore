@@ -2,3 +2,4 @@ shp/
 data/
 __pycache__/
 *.xlsx
+models/
