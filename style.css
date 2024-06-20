@@ -16,10 +16,11 @@ body {
 
 .main-content{
     background-color: rgba(153, 221, 165, 0.829);
-    width: 50%;
+    width: 70%;
     margin: 0 auto;
     border-radius: 20px;
     padding-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .title-box{
@@ -129,10 +130,7 @@ body {
 }
 
 .logo{
-    position : fixed;
-    left: 50%;
-    bottom: 0px;
-    transform: translate(-50%, 0);
+    margin-top:30px;
     margin-bottom: 30px;
 }
 
