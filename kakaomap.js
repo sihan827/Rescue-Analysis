@@ -161,6 +161,9 @@ function init(path, area_name, is_dam, is_death) {
             opacity = area.prob;
         }
         
+        if (opacity < 0.2){
+            opacity = 0.0;
+        }
         opacity = 0.95 * opacity + 0.001
 
         if (area.polygon_type == 'Polygon'){
